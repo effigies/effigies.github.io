@@ -1,0 +1,171 @@
+body {
+    margin:     0 0 10pt 0;
+/*    border:     0;*/
+    padding:    0;
+/*    float:      left;*/
+}
+
+.main{
+    font-family: 'Trebuchet MS', Times;
+}
+
+.main * {
+    float:            none;
+}
+
+
+img, dl * {
+    margin:     0;
+}
+
+p li{
+    margin:     20px;
+    padding:    20px;
+}
+
+dl {
+    width:      100%;
+    overflow:   hidden;
+}
+
+.main dl dt {
+    display:    inline;
+    font-weight:    bold;
+    float:      left;
+    width:      40%;
+}
+
+.main dl dd {
+    padding-left: 20pt;
+    float:      right;
+    width:      50%;
+}
+
+a, a:visited, a:active {
+    text-decoration:    none;
+    color:              #000000;
+    border-bottom:      1px dotted;
+}
+
+h1 a {
+    border:             none;
+}
+
+a:hover {
+    color:              #dd2222;
+    border:             none;
+}
+
+/*.main p { 
+    float:              left;
+}*/
+
+a.image {
+    border:             none;
+    float:              right;
+}
+
+.logo a {
+    border-bottom:      0;
+}
+
+.header {
+    /*padding:                5px 30px 5px 35px;*/
+    padding-left:       19%;
+    padding-right:      19%;
+    padding-top:        5px;
+    padding-bottom:     5px;
+    background-color:   #cccccc;
+    clear:              both;
+    height:             20px;
+    border-width:       0 0 1px 0;
+    border-style:       solid;
+    border-color:       #a0a0a0;
+    position:           fixed;
+    width:              62%;
+    top:                0;
+    left:               0;
+    z-index:            100;
+/*    display:            none;*/
+}
+
+.header ul {
+    list-style:             square;
+    list-style-position:    inside;
+    float:                  right;
+    padding-top:            0;
+    margin:                 0;
+}
+
+.header ul li {
+    float:                  left;
+/*    padding-left:           15pt;
+ *    width:                  100pt;*/
+    text-align:             right;
+}
+
+.header ul li a {
+    padding:                0;
+    margin:                 0;
+}
+
+.main {
+    float:                  none;
+    margin-top:             60px;
+    width:                  62%;
+    height:                 500px;
+    margin-left:            19%;
+}
+
+.main ul.menu {
+    float:                      left;
+    width:                      100%;
+    list-style:                 none;
+    padding-left:               0;
+    margin-left:                0;
+    padding-top:                0;
+    margin-top:                 0;
+}
+
+.main ul.menu li {
+    float:                      left;
+    border:                     1px solid;
+    padding:                    2px;
+    margin-right:               10px;
+    width:                      7em;
+    text-align:                 center;
+    padding-top:                0;
+    margin-top:                 2px;
+    margin-left:                2px;
+}
+
+.main ul.menu li a {
+    border-bottom:          0;
+}
+
+.main ul.menu li.here {
+    border:             2px solid;
+    margin-top:         1px;
+    margin-left:        1px;
+    margin-right:       9px;
+}
+
+.main textarea.QR {
+    line-height:        1em;
+}
+
+.spacer10 {
+    height:            10pt;
+}
+
+.spacer20 {
+    height:            20pt;
+}
+
+.spacer30 {
+    height:            30pt;
+}
+
+.spacer40 {
+    height:            40pt;
+}
